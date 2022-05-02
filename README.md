@@ -15,3 +15,7 @@
      Ethereum is a decentralized, open-source blockchain with smart contract functionality.
     
     
+ ###### 3. What is Smart Contracts
+     Smart contract is nothing but a program that runs on blockchain.
+      
+     In easy language, smart contract is an agreement between two people. 
