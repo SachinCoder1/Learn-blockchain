@@ -3,7 +3,7 @@
 
 ## Basics of blockchain
 
- ###### What is Blockchain
+ ###### 1. What is Blockchain
      Blockchain is **distributed immutable ledger** where:
  
      1. **Distributed** means the blockchain is distributed all over the network.
