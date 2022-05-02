@@ -11,3 +11,7 @@
      3. Ledger means a place where transactions are stored in a block of a blockchain.
     
     
+ ###### 2. What is Ethereum
+     Ethereum is a decentralized, open-source blockchain with smart contract functionality.
+    
+    
