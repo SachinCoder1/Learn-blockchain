@@ -3,7 +3,7 @@
 
 ## Basics of blockchain
 
- ###### 1. What is Blockchain
+ ###### 1. What is Blockchain?
      Blockchain is distributed immutable ledger where:
  
      • Distributed means the blockchain is distributed all over the network.
@@ -11,22 +11,22 @@
      • Ledger means a place where transactions are stored in a block of a blockchain.
     
     
- ###### 2. What is Ethereum
+ ###### 2. What is Ethereum?
      Ethereum is a decentralized, open-source blockchain with smart contract functionality.
      
- ###### 3. What is EVM (Ethereum Virtual Machine) and why do we use it.
+ ###### 3. What is EVM (Ethereum Virtual Machine) and why do we use it?
      EVM is used to create virtual machine inside computer or node.  We use it to secure the network. 
      
      Interested in learning more about EVM? visit the ethereum official website -> https://ethereum.org/en/developers/docs/evm/
     
     
- ###### 4. What is Smart Contracts
+ ###### 4. What is Smart Contracts?
      Smart contract is nothing but a program that runs on blockchain.
      
      In easy language, smart contract is an agreement between two people. 
      
      
- ###### 5. What is DAPP (Decentralized application)
+ ###### 5. What is DAPP (Decentralized application)?
      DAPP is a decentralized application which runs on decentralized network. 
  
      • Some examples of decentralized examples are: d.tube which is decentralized version of youtube. presearch which is decentralized version of google. Same for twitter we have lbry.
@@ -49,7 +49,7 @@
      
 ## Basics of Solidity
      
- ###### 1. How do we write smart contracts. 
+ ###### 1. How do we write smart contracts?
      We write smart contract on top of ethereum with the help of solidity language.
      
  ###### 2. What is solidity and tell some benefits of solidity? 
@@ -57,7 +57,7 @@
      • It is case sensitive.
      • It is an high level statically typed programming language.
      
- ###### 3. How solidity language compiles the program.
+ ###### 3. How solidity language compiles the program?
      • It uses solc which is solidity compiler to compile a program.
      • when compiling solc splits the file into 2 parts 
      • It is an high level statically typed programming language.
