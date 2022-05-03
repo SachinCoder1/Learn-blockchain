@@ -3,8 +3,8 @@
 
 ## Basics of blockchain
 
- ###### 1. What is Blockchain?
-     Blockchain is distributed immutable ledger where:
+ ## 1. What is Blockchain?
+ Blockchain is distributed immutable ledger where:
  
      • Distributed means the blockchain is distributed all over the network.
      • Immutable means the data once stored it can't be changed or deleted. **Main benefit of blockchain**
