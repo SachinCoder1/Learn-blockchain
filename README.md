@@ -94,11 +94,11 @@
     
     Some points to be known about state variables :-
     • State variable cost gas because it is stored in blockchain.
-    • We declare state variable using public keywork. 
+    • We declare state variable using public keyword. 
     • State variable are declared very carefully.
     
     
- ## 6. What are Local Variable in solidity?
+ ## 7. What are Local Variable in solidity?
     Local variable are variable which are available in a local scope or in functions.
     
     Some points to be known about local variables :-
