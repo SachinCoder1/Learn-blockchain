@@ -39,28 +39,55 @@
      
      • Centralized apps :-
      
-     1. These types of apps can go down. 
-     2. We can't trust them because we don't know how they use our data.
+       1. These types of apps can go down. 
+       2. We can't trust them because we don't know how they use our data.
      
      • Decentralized apps :-
      
-     1. These types of apps are never down because it is available everywhere.
-     2. We can trust DAPPs because most of applications are open source.
+       1. These types of apps are never down because it is available everywhere.
+       2. We can trust DAPPs because most of applications are open source.
      
 ## Basics of Solidity
      
  ###### 1. How do we write smart contracts?
      We write smart contract on top of ethereum with the help of solidity language.
      
+     
  ###### 2. What is solidity and tell some benefits of solidity? 
      • Solidity is a object oriented programming language used for writing smart contracts.
      • It is case sensitive.
      • It is an high level statically typed programming language.
      
+     
  ###### 3. How solidity language compiles the program?
      • It uses solc which is solidity compiler to compile a program.
-     • when compiling solc splits the file into 2 parts 
-     • It is an high level statically typed programming language.
+     • when compiling, solc splits the file into 2 parts ABI(application binary interface) and byte code (stored in blockchain).
+     
+     
+###### 4. What is ABI?
+    Application binary interface act as a bridge between application and smart contract.
+    
+    In easy language, ABI is used to communicate between frontend and smart contract.
+    
+    
+ ###### 6. Difference between Main network and Test network.
+     DAPP is a decentralized application which runs on decentralized network. 
+     
+     • Test network :-
+     
+       1. Used to test the blockchain application (DAPPs)
+       2. It has fake currency which we can use to test our network. 
+       3. It is very similar to main network. 
+       4. For example: Ropsten and Rinkeby is a test network.
+       5. Network ID of testnet is 3,4 or 42.
+     
+     • Main Network :-
+     
+       1. Used for actual transactions in blockchain application (DAPPs)
+       2. We can trust DAPPs because most of applications are open source.
+       3. For example: Ethereum mainnet.
+       4. Network ID of testnet is 1.
+    
  
      
 
