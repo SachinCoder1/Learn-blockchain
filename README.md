@@ -65,9 +65,9 @@
      
      
 ## 4. What is ABI?
-Application binary interface act as a bridge between application and smart contract.
+ Application binary interface act as a bridge between application and smart contract.
     
-In easy language, ABI is used to communicate between frontend and smart contract.
+ In easy language, ABI is used to communicate between frontend and smart contract.
     
     
  ## 6. Difference between Main network and Test network.
