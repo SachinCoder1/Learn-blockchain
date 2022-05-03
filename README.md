@@ -70,7 +70,7 @@
     In easy language, ABI is used to communicate between frontend and smart contract.
     
     
- ## 6. Difference between Main network and Test network.
+ ## 5. Difference between Main network and Test network.
     DAPP is a decentralized application which runs on decentralized network. 
      
      • Test network :-
@@ -89,5 +89,19 @@
        4. Network ID of testnet is 1.
     
  
-     
+ ## 6. What is State Variable and how do we declare it in solidity?
+    State variable are variable which are available in all over the code. 
+    
+    Some points to be known about state variables :-
+    • State variable cost gas because it is stored in blockchain.
+    • We declare state variable using public keywork. 
+    • State variable are declared very carefully.
+    
+    
+ ## 6. What are Local Variable in solidity?
+    Local variable are variable which are available in a local scope or in functions.
+    
+    Some points to be known about local variables :-
+    • Local variable dosen't cost gas because it is not stored in blockchain.
+    • We can declare any number of local variable. 
 
