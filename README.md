@@ -47,5 +47,20 @@
      1. These types of apps are never down because it is available everywhere.
      2. We can trust DAPPs because most of applications are open source.
      
+## Basics of Solidity
+     
+ ###### 1. How do we write smart contracts. 
+     We write smart contract on top of ethereum with the help of solidity language.
+     
+ ###### 2. What is solidity and tell some benefits of solidity? 
+     • Solidity is a object oriented programming language used for writing smart contracts.
+     • It is case sensitive.
+     • It is an high level statically typed programming language.
+     
+ ###### 3. How solidity language compiles the program.
+     • It uses solc which is solidity compiler to compile a program.
+     • when compiling solc splits the file into 2 parts 
+     • It is an high level statically typed programming language.
+ 
      
 
