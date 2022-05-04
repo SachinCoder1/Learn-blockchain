@@ -118,6 +118,11 @@
     • Do not cost gas because the data is store is not permanent.
     
     
+  ## 10. What is stack in solidity?
+    • Stack holds local variables defined inside functions if they are not reference type like uint.
+    • Do not cost gas because the data is store is not permanent.     
+    
+    
 
     
     
