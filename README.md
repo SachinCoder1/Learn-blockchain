@@ -104,4 +104,24 @@
     Some points to be known about local variables :-
     • Local variable dosen't cost gas because it is not stored in blockchain.
     • We can declare any number of local variable. 
+    
 
+ ## 8. What is storage in solidity?    
+    • Storage holds state variable.
+    • It is persistent (store the data permanent)
+    • Cost gas because it is persistent.
+
+
+ ## 9. What is memory in solidity?
+    • Memory holds local variables defined inside functions if they are reference type like strings.
+    • It is not persistent ( It holds the data for some point of time)
+    • Do not cost gas because the data is store is not permanent.
+    
+    
+
+    
+    
+    
+    
+    
+    
