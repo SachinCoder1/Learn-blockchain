@@ -123,7 +123,18 @@
     • Do not cost gas because the data is store is not permanent.     
     
     
-
+ ## 11. What is Structure (Struct) in solidity?
+    It is user defined data type that is used to group items of different types into a single type.
+    
+    • To create  this data type we use Struct keyword. 
+    
+    
+ ## 12. What are Enumeration (Enums) and why do we use it in solidity?
+    It is user defined data type that is used to assign names to constant or integral values.
+    
+    • We use enum To Increase readablity
+    • enums are only used when set values are small.
+    
     
     
     
