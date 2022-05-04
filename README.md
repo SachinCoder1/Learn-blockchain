@@ -106,19 +106,19 @@
     • We can declare any number of local variable. 
     
 
- ## 8. What is storage in solidity?    
+ ## 8. What is Storage in solidity?    
     • Storage holds state variable.
     • It is persistent (store the data permanent)
     • Cost gas because it is persistent.
 
 
- ## 9. What is memory in solidity?
+ ## 9. What is Memory in solidity?
     • Memory holds local variables defined inside functions if they are reference type like strings.
     • It is not persistent ( It holds the data for some point of time)
     • Do not cost gas because the data is store is not permanent.
     
     
-  ## 10. What is stack in solidity?
+  ## 10. What is Stack in solidity?
     • Stack holds local variables defined inside functions if they are not reference type like uint.
     • Do not cost gas because the data is store is not permanent.     
     
@@ -134,6 +134,13 @@
     
     • We use enum To Increase readablity
     • enums are only used when set values are small.
+    
+    
+  ## 13. What is Mapping and why do we use it instead of array in solidity?
+    It is used to map the key to values.
+    
+    • We use mapping to save the memory because if we use array it uses a lot of space.
+    • Array uses sequential manner to store the data which uses more space whereas mapping do not store it in sequential manner.
     
     
     
