@@ -143,6 +143,20 @@
     • Array uses sequential manner to store the data which uses more space whereas mapping do not store it in sequential manner.
     
     
+   ## 13. What is View?
+     It is used to map the key to values.
+    
+    • We use mapping to save the memory because if we use array it uses a lot of space.
+    • Array uses sequential manner to store the data which uses more space whereas mapping do not store it in sequential manner.
+    
+    
+   ## 13. What is Pure ?
+     It is used to map the key to values.
+    
+    • We use mapping to save the memory because if we use array it uses a lot of space.
+    • Array uses sequential manner to store the data which uses more space whereas mapping do not store it in sequential manner.
+    
+    
     
     
     
