@@ -169,14 +169,10 @@
     • Functions without implementation must contain virtual keyword.
     
     
-  ## 18. What are Interfaces in Solidity ?
-    An Interface is an contract or agreement between itself and any contract that implements it.
+  ## 18. What are polymorphism in Solidity ?
+    Polymorphism is a way to create same function name with different forms or arguments.
     
-    • Interface are more restricted form of abstract contracts.
-    • Interface can only inherit from other interfaces and not from other contracts.
-    • We can't declare state variable in interfaces.
-    • We can't declare constructor in interfaces.
-    • We can declare function but not implement it and all declared function must be external.
+    • We can create many same functions name but with different arguments or differnet data types.
     
     
     
