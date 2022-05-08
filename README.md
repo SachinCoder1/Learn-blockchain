@@ -143,18 +143,16 @@
     • Array uses sequential manner to store the data which uses more space whereas mapping do not store it in sequential manner.
     
     
-   ## 13. What is View?
-     It is used to map the key to values.
+   ## 13. What is view Keyword in Solidity?
+     When we use view keword in our functions then it gives access to functions to read state variable. 
+    
+    • When using view, It can't modify/update state variable in functions.
+    
+    
+   ## 13. What is pure Keyword in Solidity ?
+     Pure Keyword is used when we are neither reading state variable nor modifying state variable.
     
     • We use mapping to save the memory because if we use array it uses a lot of space.
-    • Array uses sequential manner to store the data which uses more space whereas mapping do not store it in sequential manner.
-    
-    
-   ## 13. What is Pure ?
-     It is used to map the key to values.
-    
-    • We use mapping to save the memory because if we use array it uses a lot of space.
-    • Array uses sequential manner to store the data which uses more space whereas mapping do not store it in sequential manner.
     
     
     
