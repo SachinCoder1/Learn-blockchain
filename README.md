@@ -156,6 +156,13 @@
     • If we want to change our state variable inside function then we don't use view and pure keywords.
     
     
+  ## 13. What is Inheritance in Solidity ?
+    Inheritance in solidity is the procedure in which one contract inherits the methods and attributes of another contract.
+    
+    • It is used for only creating/reading local variables.
+    • If we want to change our state variable inside function then we don't use view and pure keywords.
+    
+    
     
     
     
