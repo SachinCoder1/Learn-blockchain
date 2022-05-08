@@ -159,10 +159,14 @@
   ## 13. What is Inheritance in Solidity ?
     Inheritance in solidity is the procedure in which one contract inherits the methods and attributes of another contract.
     
-    • It is used for only creating/reading local variables.
-    • If we want to change our state variable inside function then we don't use view and pure keywords.
+    • We use is keyword to inherit an contract.
     
+
+  ## 13. What are Abstract contract ?
+    Abstract contract are contract that have at least one function without it's implementation
     
+    • To make a contract abstract, We use abstract keyword.
+    • Functions without implementation must contain virtual keyword.
     
     
     
