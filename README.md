@@ -152,7 +152,8 @@
    ## 13. What is pure Keyword in Solidity ?
      Pure Keyword is used when we are neither reading state variable nor modifying state variable.
     
-    • We use mapping to save the memory because if we use array it uses a lot of space.
+    • It is used for only creating/reading local variables.
+    • If we want to change our state variable inside function then we don't use view and pure keywords.
     
     
     
