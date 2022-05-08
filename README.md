@@ -143,32 +143,40 @@
     • Array uses sequential manner to store the data which uses more space whereas mapping do not store it in sequential manner.
     
     
-   ## 13. What is view Keyword in Solidity?
+   ## 14. What is view Keyword in Solidity?
      When we use view keword in our functions then it gives access to functions to read state variable. 
     
     • When using view, It can't modify/update state variable in functions.
     
     
-   ## 13. What is pure Keyword in Solidity ?
+   ## 15. What is pure Keyword in Solidity ?
      Pure Keyword is used when we are neither reading state variable nor modifying state variable.
     
     • It is used for only creating/reading local variables.
     • If we want to change our state variable inside function then we don't use view and pure keywords.
     
     
-  ## 13. What is Inheritance in Solidity ?
+  ## 16. What is Inheritance in Solidity ?
     Inheritance in solidity is the procedure in which one contract inherits the methods and attributes of another contract.
     
     • We use is keyword to inherit an contract.
     
 
-  ## 13. What are Abstract contract ?
+  ## 17. What are Abstract contract ?
     Abstract contract are contract that have at least one function without it's implementation
     
     • To make a contract abstract, We use abstract keyword.
     • Functions without implementation must contain virtual keyword.
     
     
+  ## 18. What are Interfaces in Solidity ?
+    An Interface is an contract or agreement between itself and any contract that implements it.
+    
+    • Interface are more restricted form of abstract contracts.
+    • Interface can only inherit from other interfaces and not from other contracts.
+    • We can't declare state variable in interfaces.
+    • We can't declare constructor in interfaces.
+    • We can declare function but not implement it and all declared function must be external.
     
     
     
