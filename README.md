@@ -174,5 +174,16 @@
     
     • We can create many same functions name but with different arguments or differnet data types.
     
+
+  ## 19. What are visibility specifier and explain them in Solidity ?
+    There are different type of visibility specifier like public, private, internal, external.
+    
+|                     | Public  | Private  | Internal | External |
+| -------------       |:-------:| -----:   |-----:    | -----:   |
+| Outside Contract -> | True    | False    | False    | True     |
+| Within Contract  -> | True    | True     | True     | False    |
+| Derieved Contract-> | True    | False    | True     | True     |
+| Other Contract   -> | True    | Fasle    | False    | True     |
+    
     
     
