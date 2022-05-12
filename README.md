@@ -185,5 +185,23 @@
 | Derieved Contract-> | True    | False    | True     | True     |
 | Other Contract   -> | True    | Fasle    | False    | True     |
     
+ 
+  ## 20. What are Modifier ?
+    Function modifiers are used to change or restrict the behavior of a function in a smart contract. You can use a modifier to automatically check a condition prior       to executing the function.
     
+    For Example :-
+    
+    contract Owner {
+    
+       modifier onlyOwner {
+         require(msg.sender == owner, "Only Owner can use this");
+         _;
+       }
+    
+       function name() public view onlyOwner returns(string){
+          return "Steve Wazniak"
+       }
+    
+   }
+
     
