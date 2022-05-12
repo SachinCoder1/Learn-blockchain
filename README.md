@@ -212,5 +212,7 @@
     2. Owner of that smart contract is also notified.
     3. It has low cost storage.
     
-
+    
+  ## 22. What is callback function in solidity ?
+    Callback function in solidity is a function which is called by solidity when no other existing function of the contract is being called.
     
