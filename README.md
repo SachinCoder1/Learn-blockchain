@@ -213,6 +213,6 @@
     3. It has low cost storage.
     
     
-  ## 22. What is callback function in solidity ?
-    Callback function in solidity is a function which is called by solidity when no other existing function of the contract is being called.
+  ## 22. What is Fallback Function in Solidity ?
+    Fallback function is a function which is called by solidity when no other existing function of the contract is being called.
     
