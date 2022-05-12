@@ -187,7 +187,8 @@
     
  
   ## 20. What are Modifier ?
-    Function modifiers are used to change or restrict the behavior of a function in a smart contract. You can use a modifier to automatically check a condition prior       to executing the function.
+    Function modifiers are used to change or restrict the behavior of a function in a smart contract. You can use a modifier to automatically check a condition prior
+    to executing the function.
     
     For Example :-
     
