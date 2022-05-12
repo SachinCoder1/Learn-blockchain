@@ -204,5 +204,13 @@
        }
     
     }
+    
+    
+  ## 21. What are the benefits of using Events in smart contract ?
+    Events are useful in many cases like :-
+    1. User Gets notified wheneve a transaction has been done.
+    2. Owner of that smart contract is also notified.
+    3. It has low cost storage.
+    
 
     
