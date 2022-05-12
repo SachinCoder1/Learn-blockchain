@@ -179,7 +179,7 @@
     There are different type of visibility specifier like public, private, internal, external.
     
 |                     | Public  | Private  | Internal | External |
-| -------------       |:-------:| -----:   |-----:    | -----:   |
+| -------------       |:-------:|:-------: |:-------: |:-------: |
 | Outside Contract -> | True    | False    | False    | True     |
 | Within Contract  -> | True    | True     | True     | False    |
 | Derieved Contract-> | True    | False    | True     | True     |
