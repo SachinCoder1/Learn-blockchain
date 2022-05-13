@@ -9,24 +9,48 @@
      • Distributed means the blockchain is distributed all over the network.
      • Immutable means the data once stored it can't be changed or deleted. **Main benefit of blockchain**
      • Ledger means a place where transactions are stored in a block of a blockchain.
+     
+   
+ ## 2. Types of blockchain?
+    There are mainly four types of blockchain
+ 
+     1. Public Blockchains :-
+       Public blockchains are open, decentralized networks of computers accessible to anyone wanting to request or validate a transaction (check for accuracy). Those 
+       (miners) who validate transactions receive rewards.
+       
+       
+     2. Private Blockchains :-
+       Private blockchains are not open, they have access restrictions. People who want to join require permission from the system administrator. They are typically
+       governed by one entity, meaning they’re centralized. For example, Hyperledger is a private, permissioned blockchain.
+       
+       
+     3. Hybrid Blockchains :-
+       Hybrid blockchain are a combination of public and private blockchains and contain centralized and decentralized features. For example, Energy Web Foundation,
+       Dragonchain, and R3.
+    
+     4. Sidechains :-
+       A sidechain is a blockchain running parallel to the main chain. It allows users to move digital assets between two different blockchains and improves
+       scalability and efficiency. An example of a sidechain is the Liquid Network.
     
     
- ## 2. What is Ethereum?
+    
+    
+ ## 3. What is Ethereum?
     Ethereum is a decentralized, open-source blockchain with smart contract functionality.
      
- ## 3. What is EVM (Ethereum Virtual Machine) and why do we use it?
+ ## 4. What is EVM (Ethereum Virtual Machine) and why do we use it?
     EVM is used to create virtual machine inside computer or node.  We use it to secure the network. 
      
     Interested in learning more about EVM? visit the ethereum official website -> https://ethereum.org/en/developers/docs/evm/
     
     
- ## 4. What is Smart Contracts?
+ ## 5. What is Smart Contracts?
     Smart contract is nothing but a program that runs on blockchain.
      
     In easy language, smart contract is an agreement between two people. 
      
      
- ## 5. What is DAPP (Decentralized application)?
+ ## 6. What is DAPP (Decentralized application)?
     DAPP is a decentralized application which runs on decentralized network. 
  
      • Some examples of decentralized examples are: d.tube which is decentralized version of youtube. presearch which is decentralized version of google. Same for twitter we have lbry.
@@ -34,7 +58,7 @@
      • To Make DAPP we need smart contract and frontend. 
      
      
- ## 6. Difference between centralized apps and decentralized apps.
+ ## 7. Difference between centralized apps and decentralized apps.
     DAPP is a decentralized application which runs on decentralized network. 
      
      • Centralized apps :-
