@@ -42,7 +42,8 @@
     
     
  ## 4. What is Ethereum?
-    Ethereum is a decentralized, open-source blockchain with smart contract functionality.
+    Ethereum is a decentralized, open-source blockchain with smart contract functionality. Ethereum is an open blockchain platform that lets anyone build and use
+    decentralized applications that run on blockchain technology.
      
      
  ## 5. What is EVM (Ethereum Virtual Machine) and why do we use it?
@@ -57,7 +58,10 @@
     
     
  ## 7. What is Smart Contracts?
-    Smart contract is nothing but a program that runs on blockchain.
+    Smart contract is nothing but a program that runs on blockchain. A smart contract is a self-executing digital agreement that enables two or more parties to exchange money, property, shares, or anything of value in a transparent, conflict-free way while avoiding the need for a third party.
+    
+    According to Vitalik Buterin (Founder of ethereum) :-
+    In a smart contract approach, an asset or currency is transferred into a program and the program runs this code and at some point it automatically validates a condition and it automatically determines whether the asset should go to one person or back to the other person, or whether it should be immediately refunded to the person who sent it or some combination thereof.
      
     In easy language, smart contract is an agreement between two people. 
      
@@ -223,8 +227,7 @@
     
  
   ## 20. What are Modifier ?
-    Function modifiers are used to change or restrict the behavior of a function in a smart contract. You can use a modifier to automatically check a condition prior
-    to executing the function.
+    Function modifiers are used to change or restrict the behavior of a function in a smart contract. You can use a modifier to automatically check a condition prior to executing the function.
     
     For Example :-
     
