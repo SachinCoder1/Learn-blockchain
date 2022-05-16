@@ -255,3 +255,6 @@
   ## 22. What is Fallback Function in Solidity ?
     Fallback function is a function which is called by solidity when no other existing function of the contract is being called.
     
+    
+  ## 22. What does Self Destruct function do in Solidity ?
+    Self Destruct function is used to destroy the smart contract in the case of any emergency. The money is transferred back to the manager.
