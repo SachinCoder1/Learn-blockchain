@@ -58,6 +58,15 @@
     
   ## 7. What is public key cryptography?
     Public-key cryptography, or asymmetric cryptography, is an encryption scheme that uses two mathematically related, but not identical, keys - a public key and a private key. Unlike symmetric key algorithms that rely on one key to both encrypt and decrypt, each key performs a unique function. The public key is used to encrypt and the private key is used to decrypt.
+    
+    Security Benefits of Digital Signatures :-
+    Assuming the private key has remained secret and the individual it was issued to is the only person with access to it, digitally signing documents and emails offers the following benefits.
+
+    Authentication – since the individual’s unique private key was used to apply the signature, recipients can be confident that the individual was the one to actually apply the signature
+    
+    Non-repudiation – since the individual is the only one with access to the private key used to apply the signature, he/she cannot later claim that it wasn’t him/her who applied the signature
+
+    Integrity - when the signature is verified, it checks that the contents of the document or message match what was in there when the signature was applied. Even the slightest change to the original document would cause this check to fail.
      
     
     
