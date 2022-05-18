@@ -116,6 +116,13 @@
      
        1. These types of apps are never down because it is available everywhere.
        2. We can trust DAPPs because most of applications are open source.
+       
+    
+  ## 13. What do we need to manage the integrity of transaction? 
+    1. Secure and unique account address.
+    2. Authorization of transaction by the sender through digital signing
+    3. Verification of the content of the transaction is not modified.
+  
      
 # Basics of Solidity
      
