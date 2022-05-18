@@ -54,10 +54,14 @@
     
   ## 6. What are Miners?
     Miners are computers that execute operations defined by the blockchain protocols.
+    
+    
+  ## 7. What is public key cryptography?
+    Public-key cryptography, or asymmetric cryptography, is an encryption scheme that uses two mathematically related, but not identical, keys - a public key and a private key. Unlike symmetric key algorithms that rely on one key to both encrypt and decrypt, each key performs a unique function. The public key is used to encrypt and the private key is used to decrypt.
      
     
     
- ## 7. What is Smart Contracts?
+ ## 8. What is Smart Contracts?
     Smart contract is nothing but a program that runs on blockchain. A smart contract is a self-executing digital agreement that enables two or more parties to exchange money, property, shares, or anything of value in a transparent, conflict-free way while avoiding the need for a third party.
     
     According to Vitalik Buterin (Founder of ethereum) :-
@@ -66,7 +70,7 @@
     In easy language, smart contract is an agreement between two people. 
      
      
- ## 8. What is DAPP (Decentralized application)?
+ ## 9. What is DAPP (Decentralized application)?
     DAPP is a decentralized application which runs on decentralized network. 
  
      • Some examples of decentralized examples are: d.tube which is decentralized version of youtube. presearch which is decentralized version of google. Same for twitter we have lbry.
@@ -74,7 +78,7 @@
      • To Make DAPP we need smart contract and frontend. 
      
      
- ## 9. Difference between centralized apps and decentralized apps.
+ ## 10. Difference between centralized apps and decentralized apps.
     DAPP is a decentralized application which runs on decentralized network. 
      
      • Centralized apps :-
