@@ -69,16 +69,25 @@
     Integrity - when the signature is verified, it checks that the contents of the document or message match what was in there when the signature was applied. Even the slightest change to the original document would cause this check to fail.
     
  
-## 6. What is ECC ( Elliptic Curve Cryptography )?
+## 8. What is ECC ( Elliptic Curve Cryptography )?
     Elliptic Curve Cryptography (ECC) is a modern public-key encryption technique famous for being smaller, faster, and more efficient than incumbents. Bitcoin, for example, uses ECC as its asymmetric cryptosystem because it is so lightweight. The mathematical entity that makes all of this possible is the elliptic curve, so read on to learn how these curves enable some of the most advanced cryptography in the world.
     
     ECC is used as the cryptographic key algorithm in Bitcoin because it potentially can save ~90% of the resources used by a similar RSA system. It seems that each year we see more systems moving from RSA to a more modern elliptic curve approach.
 
 
-     
+## 9. What is Hashing?
+    In simple terms, hashing means taking an input string of any length and giving out an output of a fixed length. In the context of cryptocurrencies like bitcoin, the transactions are taken as input and run through a hashing algorithm (bitcoin uses SHA-256) which gives an output of a fixed length.
+    
+    In SHA256 ( Secure Hashing Algorithm ) no matter how big or small your input is, the output will always have a fixed 256-bits length. This becomes critical when you are dealing with a huge amount of data and transactions. So basically, instead of remembering the input data which could be huge, you can just remember the hash and keep track.
+
+  
+## 10. What is Cryptographic hash functions?
+    A cryptographic hash function is a special class of hash functions that has various properties making it ideal for cryptography. There are certain properties that a cryptographic hash function needs to have in order to be considered secure.
+    
+    To know more about this go to -> https://blockgeeks.com/guides/what-is-hashing/
     
     
- ## 8. What is Smart Contracts?
+ ## 11. What is Smart Contracts?
     Smart contract is nothing but a program that runs on blockchain. A smart contract is a self-executing digital agreement that enables two or more parties to exchange money, property, shares, or anything of value in a transparent, conflict-free way while avoiding the need for a third party.
     
     According to Vitalik Buterin (Founder of ethereum) :-
@@ -87,7 +96,7 @@
     In easy language, smart contract is an agreement between two people. 
      
      
- ## 9. What is DAPP (Decentralized application)?
+ ## 12. What is DAPP (Decentralized application)?
     DAPP is a decentralized application which runs on decentralized network. 
  
      • Some examples of decentralized examples are: d.tube which is decentralized version of youtube. presearch which is decentralized version of google. Same for twitter we have lbry.
@@ -95,7 +104,7 @@
      • To Make DAPP we need smart contract and frontend. 
      
      
- ## 10. Difference between centralized apps and decentralized apps.
+ ## 13. Difference between centralized apps and decentralized apps.
     DAPP is a decentralized application which runs on decentralized network. 
      
      • Centralized apps :-
