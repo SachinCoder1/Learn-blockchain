@@ -122,6 +122,19 @@
     1. Secure and unique account address.
     2. Authorization of transaction by the sender through digital signing
     3. Verification of the content of the transaction is not modified.
+    
+    
+     
+  ## 14. What are Tokens?
+    Tokens are a type of cryptocurrency that represents an asset or specific use and resides on their blockchain.
+    
+    
+  ## 15. What is ERC and ERC20 Token?
+    ERC stands for ethereum requests for comments. An ERC is a form of proposal and its purpose is to define standards and practices.
+    
+    • ERC20 is a proposal that intends to standarize how a token contract should be defined, how we interact with such a token contract and how these contract interact with each other.
+    • ERC20 is a standard interface used for financial application.
+    • A full compatible ERC20 token must implement 6 functions and 2 events.r
   
      
 # Basics of Solidity
