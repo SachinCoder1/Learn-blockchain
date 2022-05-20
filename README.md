@@ -134,7 +134,7 @@
     
     • ERC20 is a proposal that intends to standarize how a token contract should be defined, how we interact with such a token contract and how these contract interact with each other.
     • ERC20 is a standard interface used for financial application.
-    • A full compatible ERC20 token must implement 6 functions and 2 events.r
+    • A full compatible ERC20 token must implement 6 functions and 2 events.
   
      
 # Basics of Solidity
