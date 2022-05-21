@@ -308,3 +308,12 @@
     
   ## 22. What does Self Destruct function do in Solidity ?
     Self Destruct function is used to destroy the smart contract in the case of any emergency. The money is transferred back to the manager.
+    
+    
+# Bonus
+     
+ ## 1. What is an ICO ( Initial Public Offering )? 
+    Before understanding an ICO first let's understand what is an IPO ( Initial Public Offering ). So basically an IPO is an initial money which a company gets from public in the exchange of some shares. Just like this in ICO people will invest in cryptocurrencies in exchange of tokens and not shares.
+    
+    So an ICO is much cheaper then IPO, It requires Less documentations, less time consuming, You don't require third party to maintain your ICO.
+    
