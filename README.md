@@ -317,3 +317,7 @@
     
     So an ICO is much cheaper then IPO, It requires Less documentations, less time consuming, You don't require third party to maintain your ICO.
     
+    
+ ## 2. What is Token Trade Time? 
+    Token trade time is very important for an ICO because it restrict to trade the token between certian amount of time. It means that the invester can not sell their token till the time specified.
+    
