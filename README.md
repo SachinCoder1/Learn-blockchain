@@ -321,3 +321,12 @@
  ## 2. What is Token Trade Time? 
     Token trade time is very important for an ICO because it restrict to trade the token between certian amount of time. It means that the invester can not sell their token till the time specified.
     
+    
+ ## 3. What is difference between Protocol/Coin and Tokens? 
+    Protocols -> Protocals are set of rules. There are so many protocols like bitcoin, ethereum. Every protocal that is created has a coin associated with it.
+     Rules Are :-
+     1. How participants over the network will communicate.
+     2. How authentication over the network will take place.
+     3. How mining will be happen and how reward will be given to the miners.
+    
+    Tokens -> Tokens are type of a cryptocurrency that represents an asset or specific use and resides on their blockchain.
