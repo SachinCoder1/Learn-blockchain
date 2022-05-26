@@ -51,6 +51,24 @@
      
     Interested in learning more about EVM? visit the ethereum official website -> https://ethereum.org/en/developers/docs/evm/
     
+ 
+ ## 5. Where does EVM stores or save data?
+    • Storage :-
+      1. Holds State Variable.
+      2. Persistant and expensive ( It cost Gas ).
+      3. It is Like a computer HDD.
+    
+    • Stack :-
+      1. Holds Local Variable defined inside functions if they are not reference types.
+      2. It is free to use and dosen't cost gas.
+      
+    • Memory :-
+      1. Holds Local Variable defined inside functions if they are reference types but declared with memory keyword.
+      2. Holds function arguments.
+      3. It is Like a computer RAM.
+      4. It is also free to use and dosen't cost gas.
+      5. Reference types are -> string, array, struct and mapping.
+    
     
   ## 6. What are Miners?
     Miners are computers that execute operations defined by the blockchain protocols.
@@ -195,6 +213,8 @@
     • Local variable dosen't cost gas because it is not stored in blockchain.
     • We can declare any number of local variable. 
     
+ 
+    
 
  ## 8. What is Storage in solidity?    
     • Storage holds state variable.
@@ -215,7 +235,6 @@
     
  ## 11. What is Structure (Struct) in solidity?
     It is user defined data type that is used to group items of different types into a single type.
-    
     • To create  this data type we use Struct keyword. 
     
     
@@ -330,3 +349,25 @@
      3. How mining will be happen and how reward will be given to the miners.
     
     Tokens -> Tokens are type of a cryptocurrency that represents an asset or specific use and resides on their blockchain.
+    
+ ## 4. All Data types and there default values
+    • Data Types :-
+       1. boolean: false
+       2. string: ""
+       3. int: 0
+       4. uint: 0
+       5. fixed: 0.0 (presumably; this type is not fully supported)
+       6. enum: the first element of the enum
+       7. address: 0x0000000000000000000000000000000000000000 (or address(0))
+     
+     • function :-
+       1. internal: empty function, returning initial values (if return is needed)
+       2. external: function that throws when called
+       
+     • Reference Types :-
+       1. mapping: empty mapping
+       2. struct: a struct where all members are set to initial values
+
+     • Array :-
+      1. dynamically-sized: []
+      2. fixed-sized: an array of the fixed size where all elements are set to initial values
