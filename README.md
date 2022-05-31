@@ -371,3 +371,26 @@
      • Array :-
       1. dynamically-sized: []
       2. fixed-sized: an array of the fixed size where all elements are set to initial values
+      
+      
+ ## 5. What is IPFS (Interplanetary File System)? 
+    IPFS (Interplanetary File System) is a Protocol designed to create a permanent and decentralized method of storing and sharing files.
+    • IPFS aims to replace HTTP and build a better web.
+    
+    • Properties :-
+      1. Peer-to-Peer, decentralized, distributed file system.
+      2. Data-sharing-network, Files are addressed based on their hash and not on their name.
+      3. Used for saving static content.
+      4. reliable, fault tolerant, zero downtime, censorship resistant.
+      5. IPFS files are chunked into blocks and saved on many IPFS peers around the internet.
+    
+    
+ ## 6. Difference between Content-addressed and Location-addressed? 
+    • Location addressed -> Whoever controls that location controls the content.
+    
+    • Content addressed -> There is no location and no one controls the file.
+    
+ ## 7. What is pinning? 
+    Pinning is the mechanism that allows you to tell IPFS to always keep a given object local.
+    
+    
