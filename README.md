@@ -390,7 +390,12 @@
     
     • Content addressed -> There is no location and no one controls the file.
     
- ## 7. What is pinning? 
+ ## 7. What is Pinning? 
     Pinning is the mechanism that allows you to tell IPFS to always keep a given object local.
+    
+ ## 8. What is Tokenization? 
+    Tokenization refers to the process of converting tangible and non-physical assets into blockchain tokens. These tokens act as “shares”, and are similar to non-fungible tokens (NFTs).
+    
+    • Tokenization is gradually finding uses on the blockchain in conventional industries like real estate, equities, and artwork.
     
     
