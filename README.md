@@ -196,8 +196,20 @@
        3. For example: Ethereum mainnet.
        4. Network ID of testnet is 1.
     
+    
+ ## 6. What is Global Variable and how do we use it in solidity?
+    Global variable are special variable exists in the global namespace used to get information about the blockchain.
+    
+    Some global variabls are :-
+    1. block.coinbase -> Address payable which returns current block miner's address.
+    2. block.gaslimit -> Current block gas limit.
+    3. block.timestamp -> Current block time in seconds.
+    4. block.difficulty -> current block difficulty
+    5. block.number -> Current block number.
+    6. blockhash(blocknumber) -> Hash of the given block.
+    
  
- ## 6. What is State Variable and how do we declare it in solidity?
+ ## 7. What is State Variable and how do we declare it in solidity?
     State variable are variable which are available in all over the code. 
     
     Some points to be known about state variables :-
@@ -206,7 +218,7 @@
     • State variable are declared very carefully.
     
     
- ## 7. What are Local Variable in solidity?
+ ## 8. What are Local Variable in solidity?
     Local variable are variable which are available in a local scope or in functions.
     
     Some points to be known about local variables :-
@@ -216,75 +228,75 @@
  
     
 
- ## 8. What is Storage in solidity?    
+ ## 9. What is Storage in solidity?    
     • Storage holds state variable.
     • It is persistent (store the data permanent)
     • Cost gas because it is persistent.
 
 
- ## 9. What is Memory in solidity?
+ ##10. What is Memory in solidity?
     • Memory holds local variables defined inside functions if they are reference type like strings.
     • It is not persistent ( It holds the data for some point of time)
     • Do not cost gas because the data is store is not permanent.
     
     
-  ## 10. What is Stack in solidity?
+  ## 11. What is Stack in solidity?
     • Stack holds local variables defined inside functions if they are not reference type like uint.
     • Do not cost gas because the data is store is not permanent.     
     
     
- ## 11. What is Structure (Struct) in solidity?
+ ## 12. What is Structure (Struct) in solidity?
     It is user defined data type that is used to group items of different types into a single type.
     • To create  this data type we use Struct keyword. 
     
     
- ## 12. What are Enumeration (Enums) and why do we use it in solidity?
+ ## 13. What are Enumeration (Enums) and why do we use it in solidity?
     It is user defined data type that is used to assign names to constant or integral values.
     
     • We use enum To Increase readablity
     • enums are only used when set values are small.
     
     
-  ## 13. What is Mapping and why do we use it instead of array in solidity?
+  ## 14. What is Mapping and why do we use it instead of array in solidity?
     It is used to map the key to values.
     
     • We use mapping to save the memory because if we use array it uses a lot of space.
     • Array uses sequential manner to store the data which uses more space whereas mapping do not store it in sequential manner.
     
     
-   ## 14. What is view Keyword in Solidity?
+   ## 15. What is view Keyword in Solidity?
      When we use view keword in our functions then it gives access to functions to read state variable. 
     
     • When using view, It can't modify/update state variable in functions.
     
     
-   ## 15. What is pure Keyword in Solidity ?
+   ## 16. What is pure Keyword in Solidity ?
      Pure Keyword is used when we are neither reading state variable nor modifying state variable.
     
     • It is used for only creating/reading local variables.
     • If we want to change our state variable inside function then we don't use view and pure keywords.
     
     
-  ## 16. What is Inheritance in Solidity ?
+  ## 17. What is Inheritance in Solidity ?
     Inheritance in solidity is the procedure in which one contract inherits the methods and attributes of another contract.
     
     • We use is keyword to inherit an contract.
     
 
-  ## 17. What are Abstract contract ?
+  ## 18. What are Abstract contract ?
     Abstract contract are contract that have at least one function without it's implementation
     
     • To make a contract abstract, We use abstract keyword.
     • Functions without implementation must contain virtual keyword.
     
     
-  ## 18. What are polymorphism in Solidity ?
+  ## 19. What are polymorphism in Solidity ?
     Polymorphism is a way to create same function name with different forms or arguments.
     
     • We can create many same functions name but with different arguments or differnet data types.
     
 
-  ## 19. What are visibility specifier and explain them in Solidity ?
+  ## 20. What are visibility specifier and explain them in Solidity ?
     There are different type of visibility specifier like public, private, internal, external.
     
 |                     | Public  | Private  | Internal | External |
@@ -295,7 +307,7 @@
 | Other Contract   -> | True    | Fasle    | False    | True     |
     
  
-  ## 20. What are Modifier ?
+  ## 21. What are Modifier ?
     Function modifiers are used to change or restrict the behavior of a function in a smart contract. You can use a modifier to automatically check a condition prior to executing the function.
     
     For Example :-
@@ -314,7 +326,7 @@
     }
     
     
-  ## 21. What are the benefits of using Events in smart contract ?
+  ## 22. What are the benefits of using Events in smart contract ?
     Events are useful in many cases like :-
     1. User Gets notified wheneve a transaction has been done.
     2. Owner of that smart contract is also notified.
@@ -325,7 +337,7 @@
     Fallback function is a function which is called by solidity when no other existing function of the contract is being called.
     
     
-  ## 22. What does Self Destruct function do in Solidity ?
+  ## 23. What does Self Destruct function do in Solidity ?
     Self Destruct function is used to destroy the smart contract in the case of any emergency. The money is transferred back to the manager.
     
     
