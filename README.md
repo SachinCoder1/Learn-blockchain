@@ -411,12 +411,16 @@
     • Tokenization is gradually finding uses on the blockchain in conventional industries like real estate, equities, and artwork.
     
     
- ## 8. What is proof of Work and How Does it Work? 
+ ## 9. What is proof of Work and How Does it Work? 
     Proof of work (PoW) is a decentralized consensus mechanism that requires members of a network to expend effort solving an arbitrary mathematical puzzle to prevent anybody from gaming the system.
     
     • Proof of work is used widely in cryptocurrency mining, for validating transactions and mining new tokens.
     • Proof of work at scale requires huge amounts of energy, which only increases as more miners join the network.
     • Proof of Stake (POS) was one of several novel consensus mechanisms created as an alternative to proof of work.
     • Due to proof of work, Bitcoin and other cryptocurrency transactions can be processed peer-to-peer in a secure manner without the need for a trusted third party.
+    
+    
+ ## 10. What is POS (proof of Stake) ? 
+    PoS is a consensus mechanism that randomly assigns the node that will mine or validate block transactions according to how many coins that node holds. The more tokens held in a wallet, the more mining power is effectively granted to it. While PoS is far less resource-intensive, it has several other flaws including a greater chance of a 51% attack in smaller altcoins and incentives to hoard tokens and not use them.
     
     
