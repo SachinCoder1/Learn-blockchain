@@ -268,6 +268,7 @@
      When we use view keword in our functions then it gives access to functions to read state variable. 
     
     • When using view, It can't modify/update state variable in functions.
+    • It don't consume any gas if it's external and called from frontend to get the data.
     
     
    ## 16. What is pure Keyword in Solidity ?
@@ -331,6 +332,7 @@
     1. User Gets notified wheneve a transaction has been done.
     2. Owner of that smart contract is also notified.
     3. It has low cost storage.
+    4. Can be accessed from frontend to get the all Emitted data. We can filter the data if the event is indexed.
     
     
   ## 22. What is Fallback Function in Solidity ?
@@ -422,5 +424,21 @@
     
  ## 10. What is POS (proof of Stake) ? 
     PoS is a consensus mechanism that randomly assigns the node that will mine or validate block transactions according to how many coins that node holds. The more tokens held in a wallet, the more mining power is effectively granted to it. While PoS is far less resource-intensive, it has several other flaws including a greater chance of a 51% attack in smaller altcoins and incentives to hoard tokens and not use them.
+    
+ 
+ ## 11. Gas Saving Methods in Solidity
+    • There are many optimization available to save gas some of them are :-
+      
+      1. **immutable keyword** -> We can use immutable keyword if the variable will not change after the initialization.
+      2. **View/Pure Keywords** -> Using View keyword will not consume gas because it will tell the web3.js or ethers.js that this is read only function. Same way we can use pure function which will again don't consume gas.
+      3. **external Keyword** -> If the function is going to be used by frontend only then we can use external keyword instead of public. The only difference will come is you can't call the external function inside the contract. 
+      4. **uint** -> Using unsigned integers like uint8 or uint32 or uint256 will cost the same gas. But this is not the case using Unsigned Integers inside structs like if use (uint32 a, uint32 b, uint c) will cost less gas then the (uint a, uint b, uint c) and sequence matter as well because it wraps the strut if it's of same.
+
+ 
+ 
+ 
+
+
+
     
     
