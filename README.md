@@ -435,10 +435,28 @@
       4. **uint** -> Using unsigned integers like uint8 or uint32 or uint256 will cost the same gas. But this is not the case using Unsigned Integers inside structs like if use (uint32 a, uint32 b, uint c) will cost less gas then the (uint a, uint b, uint c) and sequence matter as well because it wraps the strut if it's of same.
 
  
- 
- 
+## 12. Is it possible to Random Number in Solidity?
+    We Can't generate a random number in solidity. At least there is no safest method to generate the random number.
+    
+    • Random number generation via keccak256
+      The best source of randomness we have in Solidity is the keccak256 hash function.
 
+      We could do something like the following to generate a random number:
+      **Generate a random number between 1 and 100:**
+      
+       (
+       *Code Example*
+          uint randNonce = 0;
+          uint random = uint(keccak256(abi.encodePacked(now, msg.sender, randNonce))) % 100;
+          randNonce++;
+          uint random2 = uint(keccak256(abi.encodePacked(now, msg.sender, randNonce))) % 100;
+       )
 
+     What this would do is take the timestamp of now, the msg.sender, and an incrementing nonce (a number that is only ever used once, so we don't run the same hash function with the same input parameters twice).
+
+    It would then "pack" the inputs and use keccak to convert them to a random hash. Next, it would convert that hash to a uint, and then use % 100 to take only the last 2 digits. This will give us a totally random number between 0 and 99.
+    
+ For More See This [Thread](https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract)
 
     
     
