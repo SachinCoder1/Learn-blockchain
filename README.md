@@ -234,7 +234,7 @@
     • Cost gas because it is persistent.
 
 
- ##10. What is Memory in solidity?
+## 10. What is Memory in solidity?
     • Memory holds local variables defined inside functions if they are reference type like strings.
     • It is not persistent ( It holds the data for some point of time)
     • Do not cost gas because the data is store is not permanent.
