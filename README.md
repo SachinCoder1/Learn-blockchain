@@ -393,11 +393,11 @@
     4. Can be accessed from frontend to get the all Emitted data. We can filter the data if the event is indexed.
     
     
-  ## 22. What is Fallback Function in Solidity ?
+  ## 23. What is Fallback Function in Solidity ?
     Fallback function is a function which is called by solidity when no other existing function of the contract is being called.
     
     
-  ## 23. What does Self Destruct function do in Solidity ?
+  ## 24. What does Self Destruct function do in Solidity ?
     Self Destruct function is used to destroy the smart contract in the case of any emergency. The money is transferred back to the manager.
     
     
