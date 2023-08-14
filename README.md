@@ -107,7 +107,8 @@
     
     Bitcoin, and many protocols based on it, store data about transactions and user balances in the form of unspent transaction outputs, which are a list of “unspent”'
     Bitcoin amounts that have been sent to a user, but have not yet been sent from him/her.
-    
+
+[Back To Top ⬆](#blockchain-notes-with-interview-questions)
     
     
  ## 4. What is Ethereum?
@@ -120,6 +121,10 @@
      
     Interested in learning more about EVM? visit the ethereum official website -> https://ethereum.org/en/developers/docs/evm/
     
+
+[Back To Top ⬆](#blockchain-notes-with-interview-questions)
+
+
  
  ## 6. Where does EVM stores or save data?
     • Storage :-
@@ -154,6 +159,9 @@
     Non-repudiation – since the individual is the only one with access to the private key used to apply the signature, he/she cannot later claim that it wasn’t him/her who applied the signature
 
     Integrity - when the signature is verified, it checks that the contents of the document or message match what was in there when the signature was applied. Even the slightest change to the original document would cause this check to fail.
+
+
+[Back To Top ⬆](#blockchain-notes-with-interview-questions)
     
  
 ## 9. What is ECC ( Elliptic Curve Cryptography )?
@@ -172,6 +180,9 @@
     A cryptographic hash function is a special class of hash functions that has various properties making it ideal for cryptography. There are certain properties that a cryptographic hash function needs to have in order to be considered secure.
     
     To know more about this go to -> https://blockgeeks.com/guides/what-is-hashing/
+
+
+[Back To Top ⬆](#blockchain-notes-with-interview-questions)
     
     
  ## 12. What is Smart Contracts?
@@ -395,6 +406,9 @@
     
     }
     
+
+[Back To Top ⬆](#blockchain-notes-with-interview-questions)
+
     
   ## 22. What are the benefits of using Events in smart contract ?
     Events are useful in many cases like :-
@@ -454,7 +468,9 @@
      • Array :-
       1. dynamically-sized: []
       2. fixed-sized: an array of the fixed size where all elements are set to initial values
-      
+
+[Back To Top ⬆](#blockchain-notes-with-interview-questions)
+
       
  ## 5. What is IPFS (Interplanetary File System)? 
     IPFS (Interplanetary File System) is a Protocol designed to create a permanent and decentralized method of storing and sharing files.
@@ -526,5 +542,7 @@
     It would then "pack" the inputs and use keccak to convert them to a random hash. Next, it would convert that hash to a uint, and then use % 100 to take only the last 2 digits. This will give us a totally random number between 0 and 99.
     For More on random number in smart contract See This Thread -> https://ethereum.stackexchange.com/questions/191/how-can-i-securely-generate-a-random-number-in-my-smart-contract
 
-    
+
+[Back To Top ⬆](#blockchain-notes-with-interview-questions)
+
     
