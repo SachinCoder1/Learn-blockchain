@@ -52,7 +52,7 @@
 - [24. What does Self Destruct function do in Solidity ?](#24-what-does-self-destruct-function-do-in-solidity)
 </details>
 <details>
-<summary> Bonus </summary>
+<summary> More Questions </summary>
 
 - [1. What is an ICO ( Initial Public Offering )? ](#1-what-is-an-ico--initial-public-offering)
 - [2. What is Token Trade Time?](#2-what-is-token-trade-time)
